@@ -1,0 +1,18 @@
+body {
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+    color: white;
+    margin-top: 100px;
+}
+
+.left-side h1{
+    font-size: 50px;
+}

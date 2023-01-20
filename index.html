@@ -5,26 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Web Training | Intro component with sign up form</title>
 
 </head>
 <body>
 
-  Learn to code by watching others
+  <div class="container">
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+    <div class="left-side">
+      <h1>
+        Learn to code by watching others
+      </h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
 
-  Try it free 7 days then $20/mo. thereafter
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+    <div class="right-side">
+      <p class="message">Try it free 7 days then $20/mo. thereafter</p>
+      <form action="">
 
-  Claim your free trial 
+        <div class="input-group">
+          <input type="text" name="first_name" placeholder="First Name">
+          <p class="message"></p>
+        </div>
 
-  By clicking the button, you are agreeing to our Terms and Services
+        <div class="input-group">
+          <input type="text" name="last_name" placeholder="Last Name">
+          <p class="message"></p>
+        </div>
+
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email Address">
+          <p class="message"></p>
+        </div>
+
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password">
+          <p class="message"></p>
+        </div>
+
+        <button>Claim your free trial</button>
+
+        <p class="message">
+          By clicking the button, you are agreeing to our <a href="">Terms and Services</a>
+        </p>
+
+
+      </form>
+    </div>
+  </div>  
 </body>
 </html>
